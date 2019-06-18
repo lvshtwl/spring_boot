@@ -10,6 +10,8 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Transactional;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
@@ -19,11 +21,12 @@ public class JpaDataSourceTest {
     @Autowired
     private MessageRepository messageRepository;
     @Test
+//    @Transactional(isolation = Isolation.DEFAULT)
     public void testJpa(){
-        pigRepository.save(new Pig("a",11));
-        pigRepository.save(new Pig("b",12));
-        pigRepository.save(new Pig("c",13));
-        pigRepository.save(new Pig("d",14));
+        pigRepository.save(new Pig("aaaa",11));
+        pigRepository.save(new Pig("bbbb",12));
+        pigRepository.save(new Pig("ccccc",13));
+        pigRepository.save(new Pig("dddd",14));
 
         Assert.assertEquals(4, pigRepository.findAll().size());
 
