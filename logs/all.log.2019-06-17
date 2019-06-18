@@ -1,0 +1,219 @@
+2019-06-17 17:14:02,883  INFO SpringBootTestContextBootstrapper:308 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sqlva.springboot.MongoTest], using SpringBootContextLoader
+2019-06-17 17:14:02,889  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.sqlva.springboot.MongoTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-06-17 17:14:02,890  INFO AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.sqlva.springboot.MongoTest]: MongoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-06-17 17:14:03,047  INFO SpringBootTestContextBootstrapper:247 - Found @SpringBootConfiguration com.sqlva.springboot.DemoApplication for test class com.sqlva.springboot.MongoTest
+2019-06-17 17:14:03,146  INFO SpringBootTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-17 17:14:03,170  INFO SpringBootTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1b7cc17c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@59662a0b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@77fbd92c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@67c27493, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1a482e36, org.springframework.test.context.transaction.TransactionalTestExecutionListener@72967906, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5b8dfcc1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2f9f7dcf, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@747ddf94, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@35e2d654, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1bd4fdd, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@55183b20]
+2019-06-17 17:14:03,275  INFO Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2019-06-17 17:14:03,496  INFO MongoTest:50 - Starting MongoTest on WIN10-20170420B with PID 223068 (started by Administrator in D:\soft\spring\project\demo)
+2019-06-17 17:14:03,497  INFO MongoTest:679 - The following profiles are active: dev
+2019-06-17 17:14:04,453  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-17 17:14:04,455  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-17 17:14:04,625  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 163ms. Found 1 repository interfaces.
+2019-06-17 17:14:04,626  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-17 17:14:04,626  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-17 17:14:04,635  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 9ms. Found 1 repository interfaces.
+2019-06-17 17:14:04,826  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-17 17:14:04,827  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-17 17:14:04,843  INFO RepositoryConfigurationExtensionSupport:363 - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.sqlva.springboot.p.PigRepository.
+2019-06-17 17:14:04,847  INFO RepositoryConfigurationExtensionSupport:363 - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.sqlva.springboot.repository.PersonRepository.
+2019-06-17 17:14:04,848  INFO RepositoryConfigurationExtensionSupport:363 - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.sqlva.springboot.s.MessageRepository.
+2019-06-17 17:14:04,853  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 25ms. Found 1 repository interfaces.
+2019-06-17 17:14:04,866  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-17 17:14:04,868  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-17 17:14:04,885  INFO RepositoryConfigurationExtensionSupport:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sqlva.springboot.p.PigRepository.
+2019-06-17 17:14:04,886  INFO RepositoryConfigurationExtensionSupport:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sqlva.springboot.repository.MongoUserRepository.
+2019-06-17 17:14:04,887  INFO RepositoryConfigurationExtensionSupport:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sqlva.springboot.repository.PersonRepository.
+2019-06-17 17:14:04,888  INFO RepositoryConfigurationExtensionSupport:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sqlva.springboot.s.MessageRepository.
+2019-06-17 17:14:04,889  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-06-17 17:14:05,396  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9d0d52f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-17 17:14:05,529  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$1c8da028] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-17 17:14:05,849  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2019-06-17 17:14:06,067  INFO PoolBase:525 - HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2019-06-17 17:14:06,071  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2019-06-17 17:14:06,138  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: primaryPersistenceUnit
+	...]
+2019-06-17 17:14:06,241  INFO Version:46 - HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-17 17:14:06,243  INFO Environment:213 - HHH000206: hibernate.properties not found
+2019-06-17 17:14:06,409  INFO Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-17 17:14:06,619  INFO Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-17 17:14:07,313  INFO SchemaCreatorImpl:489 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@36b53f08'
+2019-06-17 17:14:07,319  INFO LocalContainerEntityManagerFactoryBean:415 - Initialized JPA EntityManagerFactory for persistence unit 'primaryPersistenceUnit'
+2019-06-17 17:14:07,346  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: SecondPersistenceUnit
+	...]
+2019-06-17 17:14:07,353  INFO HikariDataSource:110 - HikariPool-2 - Starting...
+2019-06-17 17:14:07,374  INFO PoolBase:525 - HikariPool-2 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2019-06-17 17:14:07,376  INFO HikariDataSource:123 - HikariPool-2 - Start completed.
+2019-06-17 17:14:07,376  INFO Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-17 17:14:07,516  INFO SchemaCreatorImpl:489 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@36b53f08'
+2019-06-17 17:14:07,521  INFO LocalContainerEntityManagerFactoryBean:415 - Initialized JPA EntityManagerFactory for persistence unit 'SecondPersistenceUnit'
+2019-06-17 17:14:11,040  INFO Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2019-06-17 17:14:11,183  INFO DemoApplication:50 - Starting DemoApplication on WIN10-20170420B with PID 222740 (D:\soft\spring\project\demo\target\classes started by Administrator in D:\soft\spring\project\demo)
+2019-06-17 17:14:11,183  INFO DemoApplication:679 - The following profiles are active: dev
+2019-06-17 17:14:11,860  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-17 17:14:11,861  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-17 17:14:11,903  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 36ms. Found 1 repository interfaces.
+2019-06-17 17:14:11,904  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-17 17:14:11,904  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-17 17:14:11,909  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 5ms. Found 1 repository interfaces.
+2019-06-17 17:14:12,049  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-17 17:14:12,050  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-17 17:14:12,059  INFO RepositoryConfigurationExtensionSupport:363 - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.sqlva.springboot.p.PigRepository.
+2019-06-17 17:14:12,062  INFO RepositoryConfigurationExtensionSupport:363 - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.sqlva.springboot.repository.PersonRepository.
+2019-06-17 17:14:12,062  INFO RepositoryConfigurationExtensionSupport:363 - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.sqlva.springboot.s.MessageRepository.
+2019-06-17 17:14:12,065  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 15ms. Found 1 repository interfaces.
+2019-06-17 17:14:12,075  INFO RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-17 17:14:12,076  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-17 17:14:12,087  INFO RepositoryConfigurationExtensionSupport:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sqlva.springboot.p.PigRepository.
+2019-06-17 17:14:12,088  INFO RepositoryConfigurationExtensionSupport:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sqlva.springboot.repository.MongoUserRepository.
+2019-06-17 17:14:12,089  INFO RepositoryConfigurationExtensionSupport:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sqlva.springboot.repository.PersonRepository.
+2019-06-17 17:14:12,089  INFO RepositoryConfigurationExtensionSupport:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sqlva.springboot.s.MessageRepository.
+2019-06-17 17:14:12,089  INFO RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-06-17 17:14:12,375  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1f48e74a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-17 17:14:12,442  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$9ec9347c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-17 17:14:12,669  INFO TomcatWebServer:90 - Tomcat initialized with port(s): 8080 (http)
+2019-06-17 17:14:12,800  INFO ContextLoader:296 - Root WebApplicationContext: initialization completed in 1586 ms
+2019-06-17 17:14:13,001  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2019-06-17 17:14:13,132  INFO PoolBase:525 - HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2019-06-17 17:14:13,134  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2019-06-17 17:14:13,165  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: primaryPersistenceUnit
+	...]
+2019-06-17 17:14:13,215  INFO Version:46 - HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-17 17:14:13,216  INFO Environment:213 - HHH000206: hibernate.properties not found
+2019-06-17 17:14:13,309  INFO Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-17 17:14:13,404  INFO Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-17 17:14:13,935  INFO SchemaCreatorImpl:489 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@4a31ed12'
+2019-06-17 17:14:13,947  INFO LocalContainerEntityManagerFactoryBean:415 - Initialized JPA EntityManagerFactory for persistence unit 'primaryPersistenceUnit'
+2019-06-17 17:14:13,997  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: SecondPersistenceUnit
+	...]
+2019-06-17 17:14:14,004  INFO HikariDataSource:110 - HikariPool-2 - Starting...
+2019-06-17 17:14:14,018  INFO PoolBase:525 - HikariPool-2 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2019-06-17 17:14:14,019  INFO HikariDataSource:123 - HikariPool-2 - Start completed.
+2019-06-17 17:14:14,019  INFO Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-17 17:14:14,107  INFO SchemaCreatorImpl:489 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@4a31ed12'
+2019-06-17 17:14:14,110  INFO LocalContainerEntityManagerFactoryBean:415 - Initialized JPA EntityManagerFactory for persistence unit 'SecondPersistenceUnit'
+2019-06-17 17:14:14,355  WARN JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration:237 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-17 17:14:14,795  INFO cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-06-17 17:14:14,852  INFO connection:71 - Opened connection [connectionId{localValue:1, serverValue:39}] to localhost:27017
+2019-06-17 17:14:14,854  INFO cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 21]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1001163}
+2019-06-17 17:14:15,548  INFO ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-17 17:14:15,755  INFO DocumentationPluginsBootstrapper:80 - Context refreshed
+2019-06-17 17:14:15,766  INFO DocumentationPluginsBootstrapper:83 - Found {0} custom documentation plugin(s)
+2019-06-17 17:14:15,771  INFO ApiListingReferenceScanner:53 - Scanning for api listing references
+2019-06-17 17:14:15,774  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method hello was main-controller
+2019-06-17 17:14:15,776  INFO ApiListingReferenceScanner:72 - Request mapping: hello belongs to groups: [[ResourceGroup{groupName='main-controller', position=0, controller=com.sqlva.springboot.controller.MainController}]] 
+2019-06-17 17:14:15,777  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method json was error-controller
+2019-06-17 17:14:15,777  INFO ApiListingReferenceScanner:72 - Request mapping: json belongs to groups: [[ResourceGroup{groupName='error-controller', position=0, controller=com.sqlva.springboot.controller.ErrorController}]] 
+2019-06-17 17:14:15,777  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method delete was user-controller
+2019-06-17 17:14:15,778  INFO ApiListingReferenceScanner:72 - Request mapping: delete belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.sqlva.springboot.controller.UserController}]] 
+2019-06-17 17:14:15,778  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method getUser was user-controller
+2019-06-17 17:14:15,778  INFO ApiListingReferenceScanner:72 - Request mapping: getUser belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.sqlva.springboot.controller.UserController}]] 
+2019-06-17 17:14:15,778  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method updateUser was user-controller
+2019-06-17 17:14:15,779  INFO ApiListingReferenceScanner:72 - Request mapping: updateUser belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.sqlva.springboot.controller.UserController}]] 
+2019-06-17 17:14:15,779  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method addUser was user-controller
+2019-06-17 17:14:15,779  INFO ApiListingReferenceScanner:72 - Request mapping: addUser belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.sqlva.springboot.controller.UserController}]] 
+2019-06-17 17:14:15,779  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method getUsers was user-controller
+2019-06-17 17:14:15,780  INFO ApiListingReferenceScanner:72 - Request mapping: getUsers belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.sqlva.springboot.controller.UserController}]] 
+2019-06-17 17:14:15,782  INFO ApiListingReferenceScanner:84 - Created resource listing Path: /default/error-controller Description: error-controller Position: 0
+2019-06-17 17:14:15,783  INFO ApiListingReferenceScanner:84 - Created resource listing Path: /default/main-controller Description: main-controller Position: 0
+2019-06-17 17:14:15,784  INFO ApiListingReferenceScanner:84 - Created resource listing Path: /default/user-controller Description: user-controller Position: 0
+2019-06-17 17:14:15,795  INFO ModelContextKeyGenerator:46 - Cache Key Generated: java.lang.String(true)
+2019-06-17 17:14:15,795  INFO CachingAspect:79 - Caching aspect applied for cache models with key java.lang.String(true)
+2019-06-17 17:14:15,800  INFO ModelContextKeyGenerator:46 - Cache Key Generated: java.lang.String(true)
+2019-06-17 17:14:15,800  INFO CachingAspect:79 - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-06-17 17:14:15,804  INFO OperationsKeyGenerator:51 - Cache key generated: /json.com.sqlva.springboot.controller.ErrorController.json.DefaultGenericTypeNamingStrategy
+2019-06-17 17:14:15,804  INFO CachingAspect:68 - Caching aspect applied for cache operations with key /json.com.sqlva.springboot.controller.ErrorController.json.DefaultGenericTypeNamingStrategy
+2019-06-17 17:14:15,810  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method json was error-controller
+2019-06-17 17:14:15,812  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method json was error-controller
+2019-06-17 17:14:15,814  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method json was error-controller
+2019-06-17 17:14:15,815  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method json was error-controller
+2019-06-17 17:14:15,815  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method json was error-controller
+2019-06-17 17:14:15,816  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method json was error-controller
+2019-06-17 17:14:15,816  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method json was error-controller
+2019-06-17 17:14:15,817  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method json was error-controller
+2019-06-17 17:14:15,818  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method json was error-controller
+2019-06-17 17:14:15,818  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method json was error-controller
+2019-06-17 17:14:15,819  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method json was error-controller
+2019-06-17 17:14:15,819  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method json was error-controller
+2019-06-17 17:14:15,820  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method json was error-controller
+2019-06-17 17:14:15,820  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method json was error-controller
+2019-06-17 17:14:15,821  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method json was error-controller
+2019-06-17 17:14:15,822  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method json was error-controller
+2019-06-17 17:14:15,832  INFO ModelContextKeyGenerator:46 - Cache Key Generated: java.lang.String(true)
+2019-06-17 17:14:15,832  INFO CachingAspect:79 - Caching aspect applied for cache models with key java.lang.String(true)
+2019-06-17 17:14:15,832  INFO ModelContextKeyGenerator:46 - Cache Key Generated: java.lang.String(true)
+2019-06-17 17:14:15,832  INFO CachingAspect:79 - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-06-17 17:14:15,833  INFO OperationsKeyGenerator:51 - Cache key generated: /helloworld.com.sqlva.springboot.controller.MainController.hello.DefaultGenericTypeNamingStrategy
+2019-06-17 17:14:15,833  INFO CachingAspect:68 - Caching aspect applied for cache operations with key /helloworld.com.sqlva.springboot.controller.MainController.hello.DefaultGenericTypeNamingStrategy
+2019-06-17 17:14:15,833  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method hello was main-controller
+2019-06-17 17:14:15,834  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method hello was main-controller
+2019-06-17 17:14:15,834  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method hello was main-controller
+2019-06-17 17:14:15,835  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method hello was main-controller
+2019-06-17 17:14:15,836  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method hello was main-controller
+2019-06-17 17:14:15,836  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method hello was main-controller
+2019-06-17 17:14:15,837  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method hello was main-controller
+2019-06-17 17:14:15,837  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method hello was main-controller
+2019-06-17 17:14:15,838  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method hello was main-controller
+2019-06-17 17:14:15,839  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method hello was main-controller
+2019-06-17 17:14:15,839  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method hello was main-controller
+2019-06-17 17:14:15,839  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method hello was main-controller
+2019-06-17 17:14:15,840  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method hello was main-controller
+2019-06-17 17:14:15,840  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method hello was main-controller
+2019-06-17 17:14:15,841  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method hello was main-controller
+2019-06-17 17:14:15,841  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method hello was main-controller
+2019-06-17 17:14:15,844  INFO ModelContextKeyGenerator:46 - Cache Key Generated: java.lang.String(true)
+2019-06-17 17:14:15,845  INFO CachingAspect:79 - Caching aspect applied for cache models with key java.lang.String(true)
+2019-06-17 17:14:15,845  INFO ModelContextKeyGenerator:46 - Cache Key Generated: java.lang.String(true)
+2019-06-17 17:14:15,845  INFO CachingAspect:79 - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-06-17 17:14:15,845  INFO OperationsKeyGenerator:51 - Cache key generated: /users.com.sqlva.springboot.controller.UserController.addUser.DefaultGenericTypeNamingStrategy
+2019-06-17 17:14:15,846  INFO CachingAspect:68 - Caching aspect applied for cache operations with key /users.com.sqlva.springboot.controller.UserController.addUser.DefaultGenericTypeNamingStrategy
+2019-06-17 17:14:15,854  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method addUser was user-controller
+2019-06-17 17:14:15,856  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method addUser was user-controller
+2019-06-17 17:14:15,859  INFO ModelContextKeyGenerator:46 - Cache Key Generated: java.lang.String(true)
+2019-06-17 17:14:15,859  INFO CachingAspect:79 - Caching aspect applied for cache models with key java.lang.String(true)
+2019-06-17 17:14:15,859  INFO ModelContextKeyGenerator:46 - Cache Key Generated: java.lang.String(true)
+2019-06-17 17:14:15,859  INFO CachingAspect:79 - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-06-17 17:14:15,859  INFO OperationsKeyGenerator:51 - Cache key generated: /users/{id}.com.sqlva.springboot.controller.UserController.delete.DefaultGenericTypeNamingStrategy
+2019-06-17 17:14:15,859  INFO CachingAspect:68 - Caching aspect applied for cache operations with key /users/{id}.com.sqlva.springboot.controller.UserController.delete.DefaultGenericTypeNamingStrategy
+2019-06-17 17:14:15,863  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method delete was user-controller
+2019-06-17 17:14:15,864  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method delete was user-controller
+2019-06-17 17:14:15,865  INFO ModelContextKeyGenerator:46 - Cache Key Generated: com.sqlva.springboot.po.User(true)
+2019-06-17 17:14:15,865  INFO CachingAspect:79 - Caching aspect applied for cache models with key com.sqlva.springboot.po.User(true)
+2019-06-17 17:14:15,866  INFO ModelPropertiesKeyGenerator:48 - Cache key generated: com.sqlva.springboot.po.User(true)
+2019-06-17 17:14:15,866  INFO CachingAspect:68 - Caching aspect applied for cache modelProperties with key com.sqlva.springboot.po.User(true)
+2019-06-17 17:14:15,889  INFO ModelContextKeyGenerator:46 - Cache Key Generated: com.sqlva.springboot.po.User(true)
+2019-06-17 17:14:15,889  INFO CachingAspect:79 - Caching aspect applied for cache modelDependencies with key com.sqlva.springboot.po.User(true)
+2019-06-17 17:14:15,890  INFO ModelPropertiesKeyGenerator:48 - Cache key generated: com.sqlva.springboot.po.User(true)
+2019-06-17 17:14:15,890  INFO CachingAspect:68 - Caching aspect applied for cache modelProperties with key com.sqlva.springboot.po.User(true)
+2019-06-17 17:14:15,890  INFO OperationsKeyGenerator:51 - Cache key generated: /users/{id}.com.sqlva.springboot.controller.UserController.getUser.DefaultGenericTypeNamingStrategy
+2019-06-17 17:14:15,890  INFO CachingAspect:68 - Caching aspect applied for cache operations with key /users/{id}.com.sqlva.springboot.controller.UserController.getUser.DefaultGenericTypeNamingStrategy
+2019-06-17 17:14:15,892  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method getUser was user-controller
+2019-06-17 17:14:15,892  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method getUser was user-controller
+2019-06-17 17:14:15,893  INFO ModelContextKeyGenerator:46 - Cache Key Generated: java.util.List<com.sqlva.springboot.po.User>(true)
+2019-06-17 17:14:15,893  INFO CachingAspect:79 - Caching aspect applied for cache models with key java.util.List<com.sqlva.springboot.po.User>(true)
+2019-06-17 17:14:15,893  INFO ModelContextKeyGenerator:46 - Cache Key Generated: java.util.List<com.sqlva.springboot.po.User>(true)
+2019-06-17 17:14:15,894  INFO CachingAspect:79 - Caching aspect applied for cache modelDependencies with key java.util.List<com.sqlva.springboot.po.User>(true)
+2019-06-17 17:14:15,894  INFO ModelPropertiesKeyGenerator:48 - Cache key generated: com.sqlva.springboot.po.User(true)
+2019-06-17 17:14:15,894  INFO CachingAspect:68 - Caching aspect applied for cache modelProperties with key com.sqlva.springboot.po.User(true)
+2019-06-17 17:14:15,894  INFO ModelPropertiesKeyGenerator:48 - Cache key generated: java.util.List<com.sqlva.springboot.po.User>(true)
+2019-06-17 17:14:15,894  INFO CachingAspect:68 - Caching aspect applied for cache modelProperties with key java.util.List<com.sqlva.springboot.po.User>(true)
+2019-06-17 17:14:15,895  INFO ModelPropertiesKeyGenerator:48 - Cache key generated: com.sqlva.springboot.po.User(true)
+2019-06-17 17:14:15,895  INFO CachingAspect:68 - Caching aspect applied for cache modelProperties with key com.sqlva.springboot.po.User(true)
+2019-06-17 17:14:15,896  INFO OperationsKeyGenerator:51 - Cache key generated: /users.com.sqlva.springboot.controller.UserController.getUsers.DefaultGenericTypeNamingStrategy
+2019-06-17 17:14:15,896  INFO CachingAspect:68 - Caching aspect applied for cache operations with key /users.com.sqlva.springboot.controller.UserController.getUsers.DefaultGenericTypeNamingStrategy
+2019-06-17 17:14:15,897  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method getUsers was user-controller
+2019-06-17 17:14:15,897  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method getUsers was user-controller
+2019-06-17 17:14:15,898  INFO ModelContextKeyGenerator:46 - Cache Key Generated: java.lang.String(true)
+2019-06-17 17:14:15,898  INFO CachingAspect:79 - Caching aspect applied for cache models with key java.lang.String(true)
+2019-06-17 17:14:15,899  INFO ModelContextKeyGenerator:46 - Cache Key Generated: java.lang.String(true)
+2019-06-17 17:14:15,899  INFO CachingAspect:79 - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-06-17 17:14:15,899  INFO OperationsKeyGenerator:51 - Cache key generated: /users/{id}.com.sqlva.springboot.controller.UserController.updateUser.DefaultGenericTypeNamingStrategy
+2019-06-17 17:14:15,899  INFO CachingAspect:68 - Caching aspect applied for cache operations with key /users/{id}.com.sqlva.springboot.controller.UserController.updateUser.DefaultGenericTypeNamingStrategy
+2019-06-17 17:14:15,900  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method updateUser was user-controller
+2019-06-17 17:14:15,901  INFO ClassOrApiAnnotationResourceGrouping:100 - Group for method updateUser was user-controller
+2019-06-17 17:14:15,953  INFO TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-17 17:14:15,954  INFO DemoApplication:59 - Started DemoApplication in 5.015 seconds (JVM running for 5.591)
