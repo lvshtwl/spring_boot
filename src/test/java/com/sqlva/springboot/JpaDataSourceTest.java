@@ -5,6 +5,8 @@ import com.sqlva.springboot.s.MessageRepository;
 import com.sqlva.springboot.p.PigRepository;
 import com.sqlva.springboot.s.Message;
 import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +22,17 @@ public class JpaDataSourceTest {
     private PigRepository pigRepository;
     @Autowired
     private MessageRepository messageRepository;
+    @Before
+    public void before(){
+        pigRepository.save(new Pig("cache",11));
+    }
+    @Test
+    public void testCache(){
+        Pig pig1 = pigRepository.findByName("cache");
+        System.out.println("第一次查询：" + pig1.getAge());
+        Pig pig2 = pigRepository.findByName("cache");
+        System.out.println("第一次查询：" + pig2.getAge());
+    }
     @Test
 //    @Transactional(isolation = Isolation.DEFAULT)
     public void testJpa(){
